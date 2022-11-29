@@ -9,23 +9,23 @@
 </head>
 <body>
     <nav>
-        <input type="text" placeholder="search" />
-        <button>Log In</button>
-        <button>Sign Up</button>
+        <form action="https://old.reddit.com/search" target="_blank">
+            <input type="text" name="q">
+            <button>Search</button>
+        </form>
     </nav>
     <main>
-        <h1>Popular Posts</h1>
+        <h1>reddit</h1>
         <section>
-            <span>
-                Posted by <a href="https://www.reddit.com/user/rextraneous/">/u/rextraneous</a>
-            </span>
-            <h2>A short story.</h2>
+            <a class="title" target="_blank" href="./meme.jpg">A short story.</a>
+            <div>
+                submitted by <a href="https://old.reddit.com/user/rextraneous/" target="_blank">rextraneous</a>
+            </div>
             <img src="./meme.jpg" alt="funny">
             <form>
                 <fieldset>
                     <div>
-                        <input type="radio" id="Upvote" name="vote" value="Upvote"
-                        checked>
+                        <input type="radio" id="Upvote" name="vote" value="Upvote" checked>
                         <label for="Upvote">Upvote</label>
                     </div>
                     
@@ -38,11 +38,11 @@
             <hr/>
         </section>
         <section>
-            <span>
-                Posted by <a href="https://www.reddit.com/user/Danklord_Ezio/">/u/Danklord_Ezio</a>
-            </span>
-            <h2>4 Premier League titles spanning 3 decades. Happy Birthday Tony Adams!</h2>
-            <img src="./tony.jpg" alt="gunners">
+            <a class="title" target="_blank" href="./fendr.jpg">Happy birthday to the strongest defender/bodyguard in the Prem!</a>
+            <div>
+                submitted by <a href="https://old.reddit.com/user/xnxrxdh/" target="_blank">xnxrxdh</a>
+            </div>
+            <img src="./fendr.jpg" alt="gunners">
             <form>
                 <fieldset>    
                     <div>
@@ -60,8 +60,10 @@
             <hr/>
         </section>
         <section>
-            <span>Posted by <a href="https://www.reddit.com/user/DankuBot">/u/DankuBot</a></span>
-            <h2>This corgi got some good stuff from the vet.</h2>
+            <a class="title" target="_blank" href="./lol.jpg">This corgi got some good stuff from the vet.</a>
+            <div>
+                submitted by <a href="https://old.reddit.com/user/DankuBot/" target="_blank">DankuBot</a>
+            </div>
             <img src="./lol.jpg" alt="dogs">
             <form>
                 <fieldset>    
@@ -81,10 +83,10 @@
         </section>
         <section>
             <ul>
-                <li><a href="https://www.reddit.com/">Home</a></li>
-                <li><a href="https://www.redditinc.com/">About</a></li>
-                <li><a href="https://www.reddit.com/contact/">Contact</a></li>
-                <li><a href="https://www.reddit.com/r/puppies/">Puppies</a></li>
+                <li><a href="https://old.reddit.com/" target="_blank">Home</a></li>
+                <li><a href="https://www.redditinc.com/" target="_blank">About</a></li>
+                <li><a href="https://old.reddit.com/contact/" target="_blank">Contact</a></li>
+                <li><a href="https://old.reddit.com/r/puppies/" target="_blank">Puppies</a></li>
             </ul>
         </section>
     </main>
